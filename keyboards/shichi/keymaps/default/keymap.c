@@ -60,9 +60,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_ADJUST] = LAYOUT(
     KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   _______, _______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  \
-    KC_CAPS, RESET,   DEBUG,   EEP_RST, _______, _______, _______, _______, _______, KC_PSCR, KC_SLCK, KC_PAUS, _______, _______, \
-    KC_DEL,  _______, MU_MOD,  AU_ON,   AU_OFF,  _______, _______, _______, _______, _______, _______, _______, _______, _______, \
-    _______, MUV_DE,  MUV_IN,  MU_ON,   MU_OFF,  MI_ON,   _______, _______, MI_OFF,  _______, _______, _______, KC_MPLY, _______, \
+    KC_CAPS, QK_BOOT, QK_DEBUG_TOGGLE, QK_CLEAR_EEPROM, _______, _______, _______, _______, _______, KC_PSCR, KC_SCRL, KC_PAUS, _______, _______, \
+    KC_DEL,  _______, MU_TOGG, AU_ON,   AU_OFF,  _______, _______, _______, _______, _______, _______, _______, _______, _______, \
+    _______, AU_PREV, AU_NEXT, MU_ON,   MU_OFF,  MI_ON,   _______, _______, MI_OFF,  _______, _______, _______, KC_MPLY, _______, \
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT  \
   )
 };
